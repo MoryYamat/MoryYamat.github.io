@@ -3,5 +3,10 @@ layout: default
 title: Home
 ---
 
-# ようこそ
-これはJekyllを使ったブログです！
+# ブログへようこそ！
+
+## 最新の記事
+
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url }})
+{% endfor %}
