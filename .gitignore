@@ -1,0 +1,13 @@
+# Jekyllが生成するファイル（Gitに不要）
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# Bundler関連（Gemのキャッシュ）
+Gemfile.lock
+
+# OSの一時ファイル（Mac向け）
+.DS_Store
+
+# VSCode関連（エディタ設定）
+.vscode/

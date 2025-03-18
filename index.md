@@ -5,8 +5,6 @@ title: Home
 
 # ブログへようこそ！
 
-## 最新の記事
-
-{% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }})
-{% endfor %}
+## 📰 最新の記事
+### [{{ site.posts.first.title }}]({{ site.posts.first.url }})
+📅 {{ site.posts.first.date | date: "%Y-%m-%d" }}
